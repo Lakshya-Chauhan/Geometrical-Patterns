@@ -63,6 +63,7 @@ pygame.init()
 screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
 screen_res = [screen.get_width(), screen.get_height()]
 pygame.display.set_caption("Random Geometrical Patterns")
+pygame.mouse.set_visible(0)
 cls()
 OBJS = list()
 for _ in range(50):
